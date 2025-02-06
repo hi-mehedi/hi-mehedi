@@ -79,3 +79,8 @@
   </a>
 </p>
 
+## ❤ Views and Followers
+<a href="https://github.com/Meghna-DAS/github-profile-views-counter">
+    <img src="https://komarev.com/ghpvc/?username=hi-mehedi">
+</a>
+<a href="https://github.com/hi-mehedi?tab=followers"><img src="https://img.shields.io/github/followers/hi-mehedi?label=Followers&style=social" alt="GitHub Badge"></a>
