@@ -1,6 +1,7 @@
 name: Generate Snake Animation
 
 on:
+  push:  # Runs when you push changes
   schedule:
     - cron: "0 0 * * *"  # Runs daily at midnight UTC
   workflow_dispatch:  # Allows manual execution
@@ -26,4 +27,5 @@ jobs:
           git add dist/github-snake.svg
           git commit -m "Updated snake animation"
           git push
+
 
