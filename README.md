@@ -63,6 +63,9 @@
 </p>
 
 ---
+### 🐍 GitHub Contribution Snake
+
+<img src="https://raw.githubusercontent.com/hi-mehedi/hi-mehedi/output/github-snake.svg" alt="Snake animation" />
 
 
 
