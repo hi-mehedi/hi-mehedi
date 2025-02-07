@@ -38,6 +38,13 @@
 </p>
 
 ---
+### 🐍 GitHub Contribution Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hi-mehedi/hi-mehedi/output/snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hi-mehedi/hi-mehedi/output/snake.svg" />
+  <img src="https://raw.githubusercontent.com/hi-mehedi/hi-mehedi/output/snake.svg" alt="Snake animation" />
+</picture>
 
 ## 🛠️ **Skills & Technologies**  
 
@@ -63,11 +70,6 @@
 </p>
 
 ---
-### 🐍 GitHub Contribution Snake
-
-<img src="https://raw.githubusercontent.com/hi-mehedi/hi-mehedi/output/github-snake.svg" alt="Snake animation" />
-
-
 
 ## 📫 **Let's Connect**  
 <p align="center">
