@@ -2,11 +2,11 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Runs every day at midnight UTC
+    - cron: "0 0 * * *"  # Runs daily at midnight UTC
   workflow_dispatch:  # Allows manual execution
 
 permissions:
-  contents: write  # Required for pushing updates
+  contents: write  # Needed to push changes
 
 jobs:
   generate:
@@ -15,18 +15,21 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          ref: output  # Checkout the output branch
 
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
           github_user_name: hi-mehedi
-          outputs: dist/github-snake.svg
+          outputs: github-snake.svg
 
-      - name: Push Changes
+      - name: Commit and Push Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add dist/github-snake.svg
-          git commit -m "Updated snake animation"
-          git push
+          git add github-snake.svg
+          git commit -m "Updated snake animation" || echo "No changes to commit"
+          git push origin output  # Push to the output branch
+
 
