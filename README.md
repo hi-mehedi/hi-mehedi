@@ -34,8 +34,15 @@
   <img src="https://github-readme-stats.vercel.app/api?username=hi-mehedi&show_icons=true&theme=radical" alt="GitHub Stats" />
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hi-mehedi&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=hi-mehedi&layout=compact&theme=tokyonight&langs_count=10" alt="Top Languages" />
 </p>
+
+## 📌 **All Used Languages**
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=hi-mehedi&theme=github_dark" alt="Most Used Languages" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=hi-mehedi&theme=github_dark" alt="Most Committed Languages" />
+</p>
+
 
 ---
 ### 🐍 GitHub Contribution Snake
